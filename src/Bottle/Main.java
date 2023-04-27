@@ -1,3 +1,7 @@
+package Bottle;
+
+import Bottle.Bottle;
+
 public class Main {
     public static void main(String[] args) {
         Bottle cola = new Bottle(500, 300, false);

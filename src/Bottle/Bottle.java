@@ -1,3 +1,5 @@
+package Bottle;
+
 /*5) create an object that represents a bottle:
 
 state : - total capacity
@@ -14,7 +16,7 @@ behavior:
 
 - a method that returns the empty capacity
 
-- a method that opens the bottle and returns a message ("Bottle is opened")
+- a method that opens the bottle and returns a message ("Bottle.Bottle is opened")
 
 - a method that closes the bottle and returns a message
 
