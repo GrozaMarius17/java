@@ -12,11 +12,26 @@ import java.util.Scanner;
 
 public class ATM {
     public static void main(String[] args) {
-        int PIN = 1234;
-        int mooneyAvailable = 2000;
+        short PIN = 1234;
+        double mooneyAvailable = 2000;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write your pin");
         short a = scanner.nextShort();
 
+        if(a == PIN) {
+            System.out.println("Success");
+            System.out.println("How much mooney do you want to withdrawn?");
+            double b = scanner.nextDouble();
+            if (mooneyAvailable >= b){
+                System.out.println("Success.You have enough mooney to make the operation");
+                double dif = mooneyAvailable-b;
+                System.out.println("You have " + dif + " mooney available!");
+            } else {
+                System.out.println("Failure. Not enough mooney");
+                System.out.println("You have: " + mooneyAvailable);
+            }
+        } else {
+            System.out.println("The PIN is incorrect");
+        }
     }
 }
