@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="Homeowrk3ATM">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM.java" afterDir="false" />
-    </list>
+    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="Homeowrk3ATM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682509243890</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homeowrk3ATM">
+      <created>1683213026108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213026108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homeowrk3ATM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homeowrk3ATM" />
   </component>
 </project>
