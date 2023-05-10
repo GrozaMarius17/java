@@ -7,7 +7,7 @@ public class InfiniteLoopMain {
     }
 
     public static void infiniteLoop() {
-        if(counter == 100) {
+        if(counter == 1000) {
             return;
         }
         System.out.println(counter++);
