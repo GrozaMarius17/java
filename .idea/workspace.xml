@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="curs15HomeworkPalindrome">
+    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="curs15HomeworkPalindrome,Fibonacci">
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/ShopItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homewrok15/RecursionHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/RecursionHomework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +55,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Category" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homewrok15.ShopItem.Category" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homewrok15.ShopItem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Category" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683725805933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="curs15HomeworkPalindrome,Fibonacci">
+      <created>1683802058768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802058768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="curs15" />
     <MESSAGE value="curs15HomeworkPalindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs15HomeworkPalindrome" />
+    <MESSAGE value="curs15HomeworkPalindrome,Fibonacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs15HomeworkPalindrome,Fibonacci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

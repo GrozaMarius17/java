@@ -1,0 +1,28 @@
+package Homewrok15.ShopItem;
+
+public class Clothes implements ShopItem {
+    private String name;
+    private int price;
+    private Category category;
+
+    public Clothes(String name, int price, Category category0){
+        this.name = name;
+        this.price = price;
+        this.category = category;
+    }
+
+    @Override
+    public String name() {
+        return null;
+    }
+
+    @Override
+    public int price() {
+        return 0;
+    }
+
+    @Override
+    public Category category() {
+        return null;
+    }
+}
