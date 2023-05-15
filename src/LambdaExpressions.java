@@ -26,6 +26,9 @@ public class LambdaExpressions {
                 throw new RuntimeException(e);
             }
         }
+
+        tryConsumer(str -> System.out.println(str));
+        tryConsumer(st -> System.out.println(st.toUpperCase()));
     }
 
     public static void truConsumer(Consumer<String> stringSupplier){
