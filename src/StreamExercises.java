@@ -6,39 +6,39 @@ public class StreamExercises {
     private static Collectors Collectors;
 
     public static void main(String[] args) {
-        List<Citizen> citizens = List.of (
-            new Citizen("Mike",28,"student", false);
-            new Citizen("Amanda",35,"artista", true);
-            new Citizen("Nick",24,"designer", true);
-            new Citizen("Pete",45,"artist", false);
+        List<Citizen> citizens = List.of(
+            new Citizen("Mike",28,"student", false),
+            new Citizen("Amanda",35,"artista", true),
+            new Citizen("Nick",24,"designer", true),
+            new Citizen("Pete",45,"artist", false)
         );
 
-        List<Citizen> result = citizens.stream().filter(Citizen -> citizens.age() > 18);
+        List<Citizen> result = citizens.stream().filter(Citizen -> Citizen.age() > 40).toList();
         System.out.println(result);
 
-        List<String> string = citizens.stream().map(Citizen::name).toList();
+        List<String> strings = citizens.stream().map(Citizen::name).toList();
         System.out.println(strings);
 
         System.out.println(citizens.stream().skip(1).limit(2).toList());
 
         System.out.println(citizens.stream().map(Citizen::profession).distinct().toList());
 
-        System.out.println(citizens.stream().filter(Citizen:: married).collect(Collectors.toSet()));
+        System.out.println(citizens.stream().filter(Citizen:: married).collect(java.util.stream.Collectors.toSet()));
 
-        System.out.println((citizens.stream().filter(citizen -> citizen.name().length()==4).count());
+        System.out.println(citizens.stream().filter(citizen -> citizen.name().length()==4).count());
 
         System.out.println(citizens.stream().allMatch(Citizen::married));
         System.out.println(citizens.stream().allMatch(Citizen::married));
 
         System.out.println(citizens.stream().map(Citizen::name).sorted(Comparator.reverseOrder()).toList());
 
-        System.out.println(citizens.stream().sorted(Comparator.comparing(Citizen::name).toList());
+        System.out.println(citizens.stream().sorted(Comparator.comparing(Citizen::name)).toList());
 
         System.out.println(citizens.stream().sorted(Comparator.comparing(Citizen::profession).thenComparing(Citizen::age)).toList());
 
         System.out.println(citizens.stream().mapToInt(Citizen::age).max());
 
-        System.out.println(citizens.stream().filter(Citizen::married).findFirst().orElseGet(() -> (new Citizen("Lorand", 34, "politician", true)));
+        System.out.println(citizens.stream().filter(Citizen::married).findFirst().orElseGet(() -> (new Citizen("Lorand", 34, "politician", true))));
     }
 }
 

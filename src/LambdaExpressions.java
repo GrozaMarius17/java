@@ -21,17 +21,23 @@ public class LambdaExpressions {
         trySupplier(() -> {
             try {
                 Scanner scanner = new Scanner((new File("")));
-                return scanner.nextLine();}
-            catch(FileNotFoundException e){
+                return scanner.nextLine();
+            } catch(FileNotFoundException e){
                 throw new RuntimeException(e);
             }
-        }
+        });
 
-        tryConsumer(str -> System.out.println(str));
+        tryConsumer(System.out::println);
         tryConsumer(st -> System.out.println(st.toUpperCase()));
+        tryConsumer(string -> string.toLowerCase());
+        tryConsumer(String::toLowerCase);
+
+        tryPredicate(i -> i < 10);
+        tryPredicate(i -> i % 2 == 0);
     }
 
-    public static void truConsumer(Consumer<String> stringSupplier){
+
+    public static void tryConsumer(Consumer<String> consumer){
         String s = "test";
         consumer.accept(s);
     }
@@ -50,8 +56,8 @@ public class LambdaExpressions {
         System.out.println(s);
     }
 
-    public static void tryFunction(Function<Integer, Integer> incrementor) {
+    public static void tryFunction(Function<Integer, Integer> incrementer) {
         int i = 4;
-        System.out.println(incrementor.apply(i));
+        System.out.println(incrementer.apply(i));
     }
 }
