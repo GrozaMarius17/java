@@ -1,6 +1,6 @@
 package Homewrok15.ShopItem;
 
-public class Electronics {
+public class Electronics implements ShopItem {
     private String name;
     private int price;
 
@@ -9,19 +9,18 @@ public class Electronics {
         this.price = price;
     }
 
-    public String getName() {
+    @Override
+    public String name() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public int price() {
+        return 0;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
+    @Override
+    public Category category() {
+        return null;
     }
 }

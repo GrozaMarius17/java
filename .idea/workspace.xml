@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="curs15HomeworkPalindrome,Fibonacci">
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Fruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/ShopItem.java" afterDir="false" />
+    <list default="true" id="eab0f543-1b8f-4986-b1e7-42ceb4cb16f1" name="Changes" comment="curs15HomeworkShopItem">
+      <change afterPath="$PROJECT_DIR$/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Clothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Electronics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Fruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Fruits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homewrok15/ShopItem/ShopItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homewrok15/ShopItem/ShopItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683802058768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="curs15HomeworkShopItem">
+      <created>1683832169595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683832169595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +148,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="curs15" />
+                        <option value="curs6" />
                       </list>
                     </value>
                   </entry>
@@ -149,7 +164,8 @@
     <MESSAGE value="curs15" />
     <MESSAGE value="curs15HomeworkPalindrome" />
     <MESSAGE value="curs15HomeworkPalindrome,Fibonacci" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs15HomeworkPalindrome,Fibonacci" />
+    <MESSAGE value="curs15HomeworkShopItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs15HomeworkShopItem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

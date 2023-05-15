@@ -13,16 +13,16 @@ public class Clothes implements ShopItem {
 
     @Override
     public String name() {
-        return null;
+        return name;
     }
 
     @Override
     public int price() {
-        return 0;
+        return price;
     }
 
     @Override
     public Category category() {
-        return null;
+        return category;
     }
 }
